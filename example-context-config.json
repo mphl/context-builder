@@ -1,0 +1,29 @@
+[
+    {
+        "name": "CONTEXT1",
+        "endpoint": "http://localhost:3001/", 
+        "token": "12312",
+        "payload": ["name"],
+        "cache": {
+            "ttl": 5000
+        }
+    },
+    {
+        "name": "CONTEXT2",
+        "endpoint": "http://localhost:3002/", 
+        "token": "4321",
+        "payload": ["name", "age"],
+        "cache": {
+            "ttl": 5000
+        }
+    },
+    {
+        "name": "CONTEXT3",
+        "endpoint": "http://localhost:3003/", 
+        "token": "4321",
+        "payload": ["name", "unknow"],
+        "cache": {
+            "ttl": 5000
+        }
+    }
+]
